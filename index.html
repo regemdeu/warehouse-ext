@@ -8,7 +8,70 @@
   </head>
   <body>
 
-    <style>.extension-content {z-index:100000;padding: 10px;border: 1px solid #ddd;background-color: #f9f9f9;width: 60px;height: 60px;transition: width 0.3s ease-in-out, height 0.3s ease-in-out, border-radius 0.3s ease-in-out;-webkit-transition:width .3s ease-in-out, height 0.3s ease-in-out, border-radius 0.3s ease-in-out;border-radius: 50%;overflow:hidden;position: fixed;display: block;top: 100%;left: 100%;transform: translate(-120%, -120%);box-sizing: border-box;animation-duration: 1s;animation-timing-function: ease-in-out;}.extension-title {margin:0 0 5px;font-family: sans-serif;opacity: 0;transition: opacity 0.3s ease-in-out;-webkit-transition: opacity 0.3 ease-in-out;white-space: nowrap;}.extension-actions {display: flex;flex-direction: column;align-items: flex-start;opacity: 0;transition: opacity 0.3s ease-in-out;-webkit-transition: opacity 0.3 ease-in-out;}.extension-button {cursor:pointer;font-size: 11px;font-family: 'Roboto', sans-serif;padding: 2px 4px;background-color: transparent;border: 1px solid #aaa;border-radius: 4px;margin-bottom: 4px;white-space: nowrap;}.extension-button-1 {color: #3c763d;}.extension-button-2 {color: #a94442;}.extension-button-3 {color: #31708f;}.extension-button:hover {background-color: rgba(0, 0, 0, 0.075);}.extension-img {pointer-events: none;width: 50px;height: 50px;position: absolute;top: 50%;left: 50%;display: block;transform: translate(-50%, -50%);transition: opacity 0.3s ease-in-out;-webkit-transition: opacity 0.3 ease-in-out;opacity: 1;}.extension-content:hover {width: 180px;height: 120px;border-radius: 8px;}.extension-content:hover .extension-title, .extension-content:hover .extension-actions {opacity: 1;transition: opacity 0.3s ease-in-out;-webkit-transition: opacity 0.3 ease-in-out;}.extension-content:hover .extension-img {opacity: 0;}@keyframes success {50% {background-color: lime;}}@keyframes fail {50% {background-color: red;}}</style>
+    <style>.extension-content {z-index:100000;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    width: 60px;
+    height: 60px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    -webkit-transition:width .3s ease-in-out, height 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    border-radius: 50%;
+    overflow:hidden;
+    position: fixed;
+    display: block;
+    top: 100%;
+    left: 100%;
+    transform: translate(calc(-100% + -20px), calc(-100% + -20px));
+    box-sizing: border-box;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    }.extension-title {margin:0 0 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3 ease-in-out;
+    white-space: nowrap;
+    }.extension-actions {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3 ease-in-out;
+    }.extension-button {cursor:pointer;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px 4px;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    }.extension-button-1 {color: #3c763d;
+    }.extension-button-2 {color: #a94442;
+    }.extension-button-3 {color: #31708f;
+    }.extension-button:hover {background-color: rgba(0, 0, 0, 0.075);
+    }.extension-img {pointer-events: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3 ease-in-out;
+    opacity: 1;
+    }.extension-content:hover {width: 180px;
+    height: 120px;
+    border-radius: 8px;
+    }.extension-content:hover .extension-title, .extension-content:hover .extension-actions {opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3 ease-in-out;
+    }.extension-content:hover .extension-img {opacity: 0;
+    }@keyframes success {50% {background-color: lime;
+    }}@keyframes fail {50% {background-color: red;
+    }}</style>
     
     
     
