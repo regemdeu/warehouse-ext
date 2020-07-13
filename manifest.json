@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Warehouse Bridge",
+  "description": "",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://i.nash-dvor.com/*/products/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
